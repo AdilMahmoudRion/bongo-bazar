@@ -30,6 +30,7 @@ body{
   padding: 10px 50px;
   border-radius: 25px;
   margin-left: 20px;
+  background-color: red;
 }
 #all-products {
   display: grid;
@@ -62,13 +63,18 @@ box-shadow:  5px 5px 21px #e8e8e8,
   height: 250px;
   border-radius: 10%;
 }
+.details-button{
+  width: 100px;
+}
 
 .cart {
   width: 350px;
   /* border: 1px solid green; */
   padding: 10px;
-  box-shadow: 10px 10px 20px gray;
-  border-radius: 5px;
+  border-radius: 19px;
+background: #ffffff;
+box-shadow:  5px 5px 21px #e8e8e8,
+             -5px -5px 21px #ffffff;
   margin-right: 30px;
   position: fixed;
 }
