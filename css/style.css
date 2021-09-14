@@ -60,6 +60,13 @@ body {
 .cart-main {
   padding-right: 30px;
 }
+.rating{
+  display: flex;
+  justify-content: space-evenly;
+}
+.price{
+  margin-top: 0%;
+}
 @media only screen and (max-width: 768px) {
   #all-products {
     display: grid;
